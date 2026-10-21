@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Midnight Ink Background Rounded Tile -->
+  <rect width="64" height="64" rx="12" fill="#17191C" />
+  
+  <!-- Outer Circular Transformation Contour -->
+  <circle cx="32" cy="32" r="20" stroke="#F5F1E8" stroke-width="7" />
+  
+  <!-- Electric Cobalt Growth Wedge detail -->
+  <path d="M32 20L42 30H22L32 20Z" fill="#3457E5" />
+  
+  <!-- Vermilion Center Registration Point -->
+  <circle cx="32" cy="35" r="3.5" fill="#F15A38" />
+</svg>
