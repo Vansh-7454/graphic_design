@@ -123,7 +123,7 @@ export default async function ProjectDetailPage({
               sizes="(max-width: 1440px) 100vw, 1440px"
               className="object-cover object-center"
             />
-            <div className="absolute top-4 left-4 bg-midnight-ink/90 text-warm-ivory px-3 py-1.5 text-[10px] font-mono tracking-widest uppercase backdrop-blur-sm border border-white/10">
+            <div className="absolute top-4 left-4 max-w-[calc(100%-2rem)] truncate bg-midnight-ink/90 text-warm-ivory px-3 py-1.5 text-[10px] font-mono tracking-widest uppercase backdrop-blur-sm border border-white/10">
               SPEC: {project.artDirectionNotes}
             </div>
             <div className="absolute bottom-4 right-4 bg-white/95 text-midnight-ink px-3 py-1.5 text-[10px] font-mono tracking-wider font-semibold border border-black/10">
@@ -304,10 +304,10 @@ export default async function ProjectDetailPage({
         {/* ======================================================== */}
         {/* SECTION: Supporting Brand Mockups & Image Gallery        */}
         {/* ======================================================== */}
-        <section className="py-12 sm:py-16 md:py-24 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 border-b border-black/10 space-y-8 sm:space-y-12">
+        <section className="py-16 sm:py-20 md:py-28 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 border-b border-black/10 space-y-8 sm:space-y-12">
           <div className="space-y-2">
             <span className="text-xs font-mono uppercase tracking-[0.25em] text-[#3457E5] font-semibold">
-              [ VISUAL ARTIFACTS &bull; SPECIMENS ]
+              Visual Artifacts &bull; Specimens
             </span>
             <h2 className="text-2xl sm:text-4xl md:text-5xl font-display font-bold text-midnight-ink tracking-tight">
               Supporting Brand Mockups

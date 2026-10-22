@@ -80,14 +80,8 @@ export default function AboutPage() {
         {/* ======================================================== */}
         {/* SECTION 1: Page Hero & Statement                        */}
         {/* ======================================================== */}
-        <section className="border-b border-black/[0.08] py-12 sm:py-16 md:py-24 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
+        <section className="border-b border-black/[0.08] py-16 sm:py-20 md:py-28 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
           <div className="space-y-4 sm:space-y-6">
-            <div className="flex items-center gap-2 text-xs font-mono tracking-widest uppercase text-[#3457E5]">
-              <span>[ ABOUT &bull; STUDIO PRACTICE ]</span>
-              <span>&bull;</span>
-              <span>PHILOSOPHY &amp; VALUES</span>
-            </div>
-
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-[4.75rem] font-display font-bold tracking-tight text-midnight-ink leading-[1.05] sm:leading-[1.02] max-w-5xl">
               We Make Ideas <br />
               <span className="font-serif italic font-normal text-[#3457E5]">
@@ -104,7 +98,7 @@ export default function AboutPage() {
         {/* ======================================================== */}
         {/* SECTION 2: Studio Atelier Visual & Strategic Stance     */}
         {/* ======================================================== */}
-        <section className="border-b border-black/[0.08] py-12 sm:py-16 md:py-24 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
+        <section className="border-b border-black/[0.08] py-16 sm:py-20 md:py-28 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 items-center">
             {/* Studio Workspace Image */}
             <div className="lg:col-span-7 relative w-full aspect-[16/10] overflow-hidden border border-black/15 shadow-xl">
@@ -156,11 +150,6 @@ export default function AboutPage() {
         {/* ======================================================== */}
         <section className="w-full bg-[#17191C] text-[#F5F1E8] py-16 sm:py-20 md:py-28 border-b border-white/10 relative overflow-hidden">
           <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 space-y-6 sm:space-y-8">
-            <div className="flex items-center gap-2 text-xs font-mono text-[#F2D675] tracking-widest uppercase">
-              <span>[ STUDIO CORE THESIS ]</span>
-              <span className="w-1.5 h-1.5 rounded-full bg-[#F2D675]" />
-            </div>
-
             <blockquote className="text-2xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-display font-medium text-[#F5F1E8] leading-[1.15] sm:leading-[1.12] tracking-tight max-w-5xl">
               &ldquo;Good design makes something look pleasant.{" "}
               <span className="font-serif italic font-normal text-[#F2D675]">
@@ -180,10 +169,7 @@ export default function AboutPage() {
         {/* SECTION 4: Creative Principles Grid                    */}
         {/* ======================================================== */}
         <section className="border-b border-black/[0.08] py-16 sm:py-20 md:py-28 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
-          <div className="space-y-3 sm:space-y-4 pb-8 sm:pb-12 border-b border-black/10">
-            <span className="text-xs font-mono uppercase tracking-[0.25em] text-[#3457E5] font-semibold">
-              [ GUIDING TENETS ]
-            </span>
+          <div className="pb-8 sm:pb-12 border-b border-black/10">
             <h2 className="text-2xl sm:text-4xl md:text-5xl font-display font-bold text-midnight-ink tracking-tight">
               Our Creative Principles
             </h2>
@@ -230,9 +216,6 @@ export default function AboutPage() {
         <section className="border-b border-black/[0.08] py-16 sm:py-20 md:py-28 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12">
             <div className="lg:col-span-5 space-y-3 sm:space-y-4">
-              <span className="text-xs font-mono uppercase tracking-[0.25em] text-[#F15A38] font-semibold">
-                [ STUDIO INTEGRITY ]
-              </span>
               <h2 className="text-2xl sm:text-4xl md:text-5xl font-display font-bold text-midnight-ink tracking-tight">
                 How We Operate
               </h2>

@@ -106,15 +106,15 @@ export default function FAQPage() {
       {/* Studio Header */}
       <Header />
 
-      <main className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-8 sm:py-12 md:py-24">
+      <main className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-16 sm:py-20 md:py-28">
         {/* ======================================================== */}
         {/* PAGE HERO                                                */}
         {/* ======================================================== */}
         <div className="border-b border-black/10 pb-8 sm:pb-12 mb-8 sm:mb-12 space-y-4 sm:space-y-6">
           <div className="flex items-center gap-2 text-xs font-mono tracking-widest uppercase text-[#3457E5]">
-            <span>[ INQUIRIES &bull; FAQ ]</span>
+            <span>Inquiries &bull; FAQ</span>
             <span>&bull;</span>
-            <span>ANSWERS &amp; ADVISORY</span>
+            <span>Answers &amp; Advisory</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-midnight-ink tracking-tight leading-[1.05] sm:leading-[1.02] max-w-4xl">

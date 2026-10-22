@@ -9,26 +9,19 @@ export function ServicesSection() {
   const [activeService, setActiveService] = useState<string>(servicesData[0].id);
 
   return (
-    <section className="w-full bg-[#F5F1E8] border-b border-black/[0.08] py-16 sm:py-20 md:py-32">
+    <section className="w-full bg-[#F5F1E8] border-b border-black/[0.08] py-20 sm:py-24 md:py-32">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between pb-8 sm:pb-12 border-b border-black/10 gap-6">
-          <div className="space-y-2">
-            <span className="text-xs font-mono uppercase tracking-[0.25em] text-[#3457E5] font-semibold">
-              [ 03 / STUDIO CAPABILITIES ]
-            </span>
-            <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tight text-midnight-ink">
+          <div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tight text-midnight-ink">
               Our Services
             </h2>
           </div>
-          <div className="max-w-md space-y-2">
+          <div className="max-w-md">
             <p className="text-sm md:text-base text-midnight-ink/80 leading-relaxed font-body">
               Five core disciplines united by Swiss typographic discipline, material intelligence, and contemporary creative direction.
             </p>
-            <div className="flex items-center gap-2 text-xs font-mono text-[#F15A38]">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#F15A38]" />
-              <span>CUSTOM CONTRACTS &bull; PRINCIPAL-LED PRACTICE</span>
-            </div>
           </div>
         </div>
 
@@ -47,27 +40,27 @@ export function ServicesSection() {
                 {/* Clickable Header Bar */}
                 <button
                   onClick={() => setActiveService(isOpen ? "" : service.id)}
-                  className="w-full py-6 sm:py-8 px-3 sm:px-8 flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4 text-left focus:outline-none"
+                  className="w-full py-5 sm:py-8 px-3 sm:px-8 flex items-center justify-between gap-4 text-left focus:outline-none group"
                   aria-expanded={isOpen}
                 >
-                  <div className="flex items-center gap-4 sm:gap-12">
-                    <span className="text-xs sm:text-sm font-mono text-muted-gray">
+                  <div className="flex items-center gap-3 sm:gap-8 md:gap-12 min-w-0 pr-2">
+                    <span className="text-xs sm:text-sm font-mono text-muted-gray shrink-0">
                       {service.number}
                     </span>
-                    <h3 className="text-xl sm:text-3xl md:text-4xl font-display font-bold text-midnight-ink hover:text-[#3457E5] transition-colors">
+                    <h3 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-display font-bold text-midnight-ink group-hover:text-[#3457E5] transition-colors leading-snug">
                       {service.title}
                     </h3>
                   </div>
 
-                  <div className="flex items-center justify-between md:justify-end gap-6 w-full md:w-auto">
+                  <div className="flex items-center gap-4 sm:gap-6 shrink-0">
                     <span className="hidden lg:inline-block text-xs font-mono uppercase tracking-wider text-midnight-ink/60">
-                      {service.headline.slice(0, 50)}...
+                      {service.headline.slice(0, 45)}...
                     </span>
-                    <div className="w-8 h-8 rounded-full border border-black/20 flex items-center justify-center shrink-0">
+                    <div className="w-8 h-8 rounded-full border border-black/20 flex items-center justify-center shrink-0 group-hover:border-[#3457E5] transition-colors">
                       {isOpen ? (
                         <Minus className="w-4 h-4 text-[#3457E5]" />
                       ) : (
-                        <Plus className="w-4 h-4 text-midnight-ink" />
+                        <Plus className="w-4 h-4 text-midnight-ink group-hover:text-[#3457E5]" />
                       )}
                     </div>
                   </div>
@@ -131,9 +124,9 @@ export function ServicesSection() {
         </div>
 
         {/* Services Bottom Summary Bar */}
-        <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-6 p-6 border border-black/10 bg-white/40">
-          <div className="flex items-center gap-3 text-xs font-mono">
-            <span className="px-2 py-0.5 bg-midnight-ink text-white font-bold">INFO</span>
+        <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 p-6 border border-black/10 bg-white/40">
+          <div className="flex items-start sm:items-center gap-3 text-xs font-mono">
+            <span className="px-2 py-0.5 bg-midnight-ink text-white font-bold shrink-0">INFO</span>
             <span className="text-midnight-ink/80">
               Need a cross-disciplinary engagement combining Identity, Packaging, and Digital?
             </span>

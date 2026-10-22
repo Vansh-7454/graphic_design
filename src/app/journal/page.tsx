@@ -40,13 +40,13 @@ export default function JournalPage() {
   return (
     <div className="min-h-screen flex flex-col bg-[#F5F1E8] text-[#17191C]">
       <Header />
-      <main className="flex-1 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-12 sm:py-16 md:py-24 w-full">
+      <main className="flex-1 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-16 sm:py-20 md:py-28 w-full">
         {/* Page Header */}
         <div className="border-b border-black/10 pb-8 sm:pb-12 mb-8 sm:mb-12">
           <div className="flex flex-wrap items-center gap-2 text-xs font-mono tracking-widest uppercase text-[#F15A38] mb-3">
-            <span>[ JOURNAL &bull; REFLECTIONS ]</span>
+            <span>Journal &bull; Reflections</span>
             <span>&bull;</span>
-            <span>CRITICAL ESSAYS ON DESIGN</span>
+            <span>Critical Essays on Design</span>
           </div>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-display font-bold text-midnight-ink tracking-tight">
             Studio Journal

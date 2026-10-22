@@ -169,10 +169,10 @@ export function Hero() {
               </div>
 
               {/* Floating Architectural Spec Card */}
-              <div className="absolute -bottom-6 -left-3 sm:-left-6 p-4 sm:p-5 bg-white/95 backdrop-blur-md border border-black/10 shadow-[0_16px_36px_rgba(23,25,28,0.1)] z-20 max-w-[280px] sm:max-w-[320px]">
+              <div className="absolute -bottom-6 left-2 sm:-left-6 p-4 sm:p-5 bg-white/95 backdrop-blur-md border border-black/10 shadow-[0_16px_36px_rgba(23,25,28,0.1)] z-20 max-w-[calc(100%-1rem)] sm:max-w-[320px]">
                 <div className="flex items-center justify-between pb-2 border-b border-black/10 gap-4">
                   <span className="text-[10px] font-mono uppercase tracking-wider text-[#3457E5] font-semibold">
-                    [ SYSTEM SPECIFICATION ]
+                    System Specification
                   </span>
                   <span className="w-2 h-2 rounded-full bg-[#F15A38]" />
                 </div>

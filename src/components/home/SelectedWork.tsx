@@ -8,19 +8,13 @@ export function SelectedWork() {
   const [sole, aura, noir, kiln, klang] = projectsData;
 
   return (
-    <section className="w-full bg-[#F5F1E8] border-b border-black/[0.08] py-16 sm:py-20 md:py-32">
+    <section className="w-full bg-[#F5F1E8] border-b border-black/[0.08] py-20 sm:py-24 md:py-32">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between pb-8 sm:pb-12 border-b border-black/10 gap-6">
-          <div className="space-y-2">
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-mono uppercase tracking-[0.25em] text-[#F15A38] font-semibold">
-                [ 02 / SELECTED WORK ]
-              </span>
-              <span className="w-1.5 h-1.5 rounded-full bg-[#3457E5]" />
-            </div>
-            <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tight text-midnight-ink">
-              Portfolio &amp; Case Archives
+          <div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tight text-midnight-ink">
+              Selected Work
             </h2>
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">

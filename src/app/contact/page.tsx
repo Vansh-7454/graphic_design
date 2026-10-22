@@ -111,15 +111,15 @@ Generated locally on ${new Date().toLocaleDateString()}`;
       {/* Studio Header */}
       <Header />
 
-      <main className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-8 sm:py-12 md:py-24">
+      <main className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-16 sm:py-20 md:py-28">
         {/* ======================================================== */}
         {/* PAGE HERO                                                */}
         {/* ======================================================== */}
         <div className="border-b border-black/10 pb-8 sm:pb-12 mb-8 sm:mb-12 space-y-4 sm:space-y-6">
           <div className="flex items-center gap-2 text-xs font-mono tracking-widest uppercase text-[#F15A38]">
-            <span>[ INITIATE INQUIRY ]</span>
+            <span>Initiate Inquiry</span>
             <span>&bull;</span>
-            <span>NEW CLIENT COMMISSIONS</span>
+            <span>New Client Commissions</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-midnight-ink tracking-tight leading-[1.05] sm:leading-[1.02] max-w-4xl">
@@ -431,7 +431,7 @@ Generated locally on ${new Date().toLocaleDateString()}`;
                         key={tier}
                         type="button"
                         onClick={() => setFormData({ ...formData, budget: tier })}
-                        className={`py-2.5 px-3 text-xs font-mono border transition-colors ${
+                        className={`py-2.5 px-2 text-[11px] sm:text-xs font-mono border transition-colors text-center ${
                           formData.budget === tier
                             ? "bg-midnight-ink text-warm-ivory border-midnight-ink font-bold"
                             : "bg-[#F5F1E8]/40 border-black/15 text-midnight-ink hover:border-black/40"

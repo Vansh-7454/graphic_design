@@ -13,11 +13,7 @@ export function StudioIntro() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 relative">
         {/* Section Index Marker */}
         <div className="flex items-center gap-3 pb-6 sm:pb-8 border-b border-black/10">
-          <span className="text-xs font-mono uppercase tracking-[0.25em] text-[#3457E5] font-semibold">
-            [ 01 / STUDIO INTRODUCTION ]
-          </span>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#F15A38]" />
-          <span className="text-xs font-mono tracking-wider text-muted-gray uppercase hidden sm:inline">
+          <span className="text-xs font-mono uppercase tracking-[0.2em] text-[#3457E5] font-semibold">
             Thoughtful Branding &amp; Visual Storytelling
           </span>
         </div>

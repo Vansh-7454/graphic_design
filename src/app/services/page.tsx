@@ -33,12 +33,12 @@ export default function ServicesPage() {
         {/* ======================================================== */}
         {/* PAGE HERO                                                */}
         {/* ======================================================== */}
-        <section className="border-b border-black/[0.08] py-12 sm:py-16 md:py-24 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
+        <section className="border-b border-black/[0.08] py-16 sm:py-20 md:py-28 max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
           <div className="space-y-4 sm:space-y-6">
             <div className="flex items-center gap-2 text-xs font-mono tracking-widest uppercase text-[#F15A38]">
-              <span>[ CAPABILITIES &bull; PRACTICES ]</span>
+              <span>Studio Capabilities &bull; Practices</span>
               <span>&bull;</span>
-              <span>FIVE CORE DISCIPLINES</span>
+              <span>Five Core Disciplines</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-[5rem] font-display font-bold tracking-tight text-midnight-ink leading-[1.05] sm:leading-[1.02] max-w-5xl">

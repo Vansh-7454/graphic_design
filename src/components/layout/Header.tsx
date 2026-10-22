@@ -20,6 +20,10 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [pathname]);
+
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${

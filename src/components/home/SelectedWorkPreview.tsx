@@ -5,14 +5,11 @@ import { ArrowUpRight } from "lucide-react";
 
 export function SelectedWorkPreview() {
   return (
-    <section className="w-full bg-[#F5F1E8] border-b border-black/[0.08] py-16 md:py-24">
+    <section className="w-full bg-[#F5F1E8] border-b border-black/[0.08] py-20 sm:py-24 md:py-32">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between pb-12 border-b border-black/10 gap-6">
           <div className="space-y-2">
-            <span className="text-xs font-mono uppercase tracking-[0.25em] text-[#3457E5] font-semibold">
-              [ 03 / PORTFOLIO INDEX ]
-            </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold tracking-tight text-midnight-ink">
               Selected Collaborations
             </h2>
