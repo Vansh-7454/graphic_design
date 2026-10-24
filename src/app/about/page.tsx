@@ -93,7 +93,7 @@ export default function AboutPage() {
               FORMA is an independent graphic design and branding studio. We partner with ambitious leaders to craft distinctive visual identities, thoughtful physical systems, and evocative digital experiences.
             </p>
           </div>
-        </section>
+        </section>            
 
         {/* ======================================================== */}
         {/* SECTION 2: Studio Atelier Visual & Strategic Stance     */}
